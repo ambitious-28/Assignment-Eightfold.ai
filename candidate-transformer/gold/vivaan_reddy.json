@@ -1,0 +1,95 @@
+{
+  "candidate_id": "cand_b3df7033119d",
+  "full_name": "Vivaan Reddy",
+  "emails": [
+    "vivaan.reddy@example.com"
+  ],
+  "phones": [
+    "+919876555555"
+  ],
+  "location": {
+    "city": "Hyderabad",
+    "region": "Telangana",
+    "country": "IN"
+  },
+  "links": {
+    "linkedin": null,
+    "github": null,
+    "portfolio": null,
+    "other": []
+  },
+  "headline": null,
+  "years_experience": null,
+  "skills": [
+    {
+      "name": "Python",
+      "confidence": 0.9,
+      "sources": [
+        "ats_blob",
+        "recruiter_notes"
+      ]
+    },
+    {
+      "name": "SQL",
+      "confidence": 0.9,
+      "sources": [
+        "ats_blob",
+        "recruiter_notes"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "StartupABC",
+      "title": "Data Analyst",
+      "start": null,
+      "end": null,
+      "summary": null
+    }
+  ],
+  "education": [],
+  "provenance": [
+    {
+      "field": "emails",
+      "source": "recruiter_csv",
+      "method": "email_union"
+    },
+    {
+      "field": "experience",
+      "source": "recruiter_csv",
+      "method": "experience_union"
+    },
+    {
+      "field": "full_name",
+      "source": "recruiter_csv",
+      "method": "name_normalized"
+    },
+    {
+      "field": "location",
+      "source": "ats_blob",
+      "method": "location_arbitrated"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_csv",
+      "method": "phone_union"
+    },
+    {
+      "field": "skills",
+      "source": "ats_blob",
+      "method": "skill_union"
+    }
+  ],
+  "overall_confidence": 0.88,
+  "sources_seen": [
+    "ats_blob",
+    "recruiter_csv",
+    "recruiter_notes"
+  ],
+  "warnings": [
+    "full_name: conflict between sources — winner from 'recruiter_csv' kept",
+    "years_experience: all sources failed normalization, value set to null",
+    "entry[1]: bad mobile: 'bad-number'",
+    "entry[1]: yearsExp 'lots' could not be parsed → null"
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "candidateName": "Aarav Sharma",
+    "emailAddress": "aarav.sharma@example.com",
+    "mobile": "9876543210",
+    "employer": "TechCorp India",
+    "jobTitle": "Software Engineer",
+    "skillTags": ["Python", "Docker", "SQL", "k8s"],
+    "yearsExp": 5,
+    "city": "Mumbai"
+  },
+  {
+    "candidateName": "V. Reddy",
+    "emailAddress": "vivaan.reddy@example.com",
+    "mobile": "bad-number",
+    "employer": "StartupABC",
+    "jobTitle": "Data Analyst",
+    "skillTags": ["Python", "SQL"],
+    "yearsExp": "lots",
+    "city": "Hyderabad"
+  },
+  {
+    "candidateName": "Priya Sharma",
+    "emailAddress": "priya.b@sharma.example.com",
+    "mobile": "9876532222",
+    "employer": "SouthernSoft",
+    "jobTitle": "Backend Engineer",
+    "skillTags": ["Java", "Spring Boot", "MySQL"],
+    "yearsExp": 4,
+    "city": "Chennai"
+  },
+  {
+    "candidateName": "Rohan Mehta",
+    "emailAddress": "rohan.mehta@example.com",
+    "mobile": "9876506001",
+    "employer": "WebCraft",
+    "jobTitle": "Full Stack Developer",
+    "skillTags": ["JavaScript", "Node.js", "MongoDB"],
+    "yearsExp": 3,
+    "city": "Pune"
+  },
+  {
+    "candidateName": "Arjun Nair",
+    "emailAddress": "arjun.nair@example.com",
+    "mobile": "9876508001",
+    "employer": "InnovateTech",
+    "jobTitle": "Backend Developer",
+    "skillTags": ["Java", "Spring Boot", "AWS"],
+    "yearsExp": 6,
+    "city": "Bengaluru"
+  },
+  {
+    "candidateName": "Diya Patel",
+    "emailAddress": "diya.patel@example.com",
+    "mobile": "9876509001",
+    "employer": "DataDriven Inc",
+    "jobTitle": "Data Scientist",
+    "skillTags": ["Python", "TensorFlow", "Pandas"],
+    "yearsExp": 4,
+    "city": "Ahmedabad"
+  },
+  {
+    "candidateName": "Saanvi Gupta",
+    "emailAddress": "saanvi.gupta@example.com",
+    "mobile": "9876599900",
+    "employer": "CloudWorks",
+    "jobTitle": "DevOps Engineer",
+    "skillTags": ["Docker", "Kubernetes", "Terraform"],
+    "yearsExp": 5,
+    "city": "Bengaluru"
+  },
+  {
+    "candidateName": "Aditya Rao",
+    "emailAddress": "aditya.rao@example.com",
+    "mobile": "9876512001",
+    "employer": "FinEdge",
+    "jobTitle": "Senior Backend Engineer",
+    "skillTags": ["Python", "Django", "PostgreSQL", "Redis"],
+    "yearsExp": 7,
+    "city": "Hyderabad"
+  },
+  {
+    "candidateName": "Meera Joshi",
+    "emailAddress": "meera.work@fintechco.com",
+    "mobile": "9876514000",
+    "employer": "FinTechCo",
+    "jobTitle": "Product Analyst",
+    "skillTags": ["SQL", "Tableau", "Python"],
+    "yearsExp": 3,
+    "city": "Mumbai"
+  },
+  "not a dict — record-level robustness test"
+]

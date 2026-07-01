@@ -1,0 +1,7 @@
+Candidate: Aarav Sharma
+Email: aarav.sharma@example.com
+Phone: (+91) 98765 43210
+Location: Mumbai, Maharashtra, India
+Skills: Python, Docker
+Notes: Excellent candidate with strong Python and DevOps skills. Currently at TechCorp India.
+Highly recommended for senior engineering roles. Reliable and team-oriented.

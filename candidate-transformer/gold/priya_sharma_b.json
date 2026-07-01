@@ -1,0 +1,99 @@
+{
+  "candidate_id": "cand_96e749fde60b",
+  "full_name": "Priya Sharma",
+  "emails": [
+    "priya.b@sharma.example.com"
+  ],
+  "phones": [
+    "+919876532222"
+  ],
+  "location": {
+    "city": "Chennai",
+    "region": null,
+    "country": null
+  },
+  "links": {
+    "linkedin": null,
+    "github": null,
+    "portfolio": null,
+    "other": []
+  },
+  "headline": null,
+  "years_experience": 4.0,
+  "skills": [
+    {
+      "name": "Java",
+      "confidence": 0.85,
+      "sources": [
+        "ats_blob"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "confidence": 0.85,
+      "sources": [
+        "ats_blob"
+      ]
+    },
+    {
+      "name": "Spring Boot",
+      "confidence": 0.85,
+      "sources": [
+        "ats_blob"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "SouthernSoft",
+      "title": "Backend Engineer",
+      "start": null,
+      "end": null,
+      "summary": null
+    }
+  ],
+  "education": [],
+  "provenance": [
+    {
+      "field": "emails",
+      "source": "recruiter_csv",
+      "method": "email_union"
+    },
+    {
+      "field": "experience",
+      "source": "recruiter_csv",
+      "method": "experience_union"
+    },
+    {
+      "field": "full_name",
+      "source": "recruiter_csv",
+      "method": "name_normalized"
+    },
+    {
+      "field": "location",
+      "source": "ats_blob",
+      "method": "location_arbitrated"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_csv",
+      "method": "phone_union"
+    },
+    {
+      "field": "skills",
+      "source": "ats_blob",
+      "method": "skill_union"
+    },
+    {
+      "field": "years_experience",
+      "source": "ats_blob",
+      "method": "years_passthrough"
+    }
+  ],
+  "overall_confidence": 0.9,
+  "sources_seen": [
+    "ats_blob",
+    "recruiter_csv"
+  ],
+  "warnings": []
+}

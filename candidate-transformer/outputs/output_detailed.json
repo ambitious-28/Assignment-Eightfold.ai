@@ -1,0 +1,3067 @@
+[
+  {
+    "candidate_id": "cand_0ad8486b789c",
+    "full_name": "Ananya Iyer",
+    "emails": [
+      "ananya.iyer@example.com"
+    ],
+    "phones": [],
+    "headline": "Java Backend Developer",
+    "years_experience": null,
+    "skills": [
+      "Java",
+      "MySQL",
+      "Spring Boot"
+    ],
+    "sources_seen": [
+      "resume"
+    ],
+    "warnings": [],
+    "overall_confidence": 0.6,
+    "provenance": [
+      {
+        "field": "education",
+        "final_value": [
+          {
+            "institution": "Anna University",
+            "degree": "B.E.",
+            "field": "Computer Science",
+            "end_year": 2021
+          }
+        ],
+        "method": "education_union",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "['Anna University\\nB.E. in Computer Science\\n2021']",
+            "normalized": "[EducationEntry(institution='Anna University', degree='B.E.', field='Computer Science', end_year=2021)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "emails",
+        "final_value": [
+          "ananya.iyer@example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "['ananya.iyer@example.com']",
+            "normalized": "['ananya.iyer@example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "Infosys",
+            "title": "Software Developer",
+            "start": "2021-08",
+            "end": "Present",
+            "summary": "Developed Spring Boot microservices for banking clients."
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "['Software Developer\\nInfosys | Aug 2021 - Present\\nDeveloped Spring Boot microservices for banking clients.']",
+            "normalized": "[ExperienceEntry(company='Infosys', title='Software Developer', start='2021-08', end='Present', summary='Developed Spring Boot microservices for banking clients.')]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Ananya Iyer",
+        "method": "name_normalized",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "Ananya Iyer",
+            "normalized": "Ananya Iyer",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "headline",
+        "final_value": "Java Backend Developer",
+        "method": "headline_cleaned",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "Java Backend Developer",
+            "normalized": "Java Backend Developer",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Chennai",
+          "region": "Tamil Nadu",
+          "country": "IN"
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "Chennai, Tamil Nadu, India",
+            "normalized": "Location(city='Chennai', region='Tamil Nadu', country='IN')",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "Java",
+            "confidence": 0.6,
+            "sources": [
+              "resume"
+            ]
+          },
+          {
+            "name": "MySQL",
+            "confidence": 0.6,
+            "sources": [
+              "resume"
+            ]
+          },
+          {
+            "name": "Spring Boot",
+            "confidence": 0.6,
+            "sources": [
+              "resume"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "['Java', 'Spring Boot', 'MySQL']",
+            "normalized": "[SkillEntry(name='Java', confidence=0.0, sources=[]), SkillEntry(name='Spring Boot', confidence=0.0, sources=[]), SkillEntry(name='MySQL', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_148c796734ae",
+    "full_name": "Ishaan Verma",
+    "emails": [
+      "ishaan.verma@example.com"
+    ],
+    "phones": [
+      "+919876513000"
+    ],
+    "headline": "Platform Engineer",
+    "years_experience": null,
+    "skills": [
+      "Docker",
+      "Go",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "sources_seen": [
+      "recruiter_csv",
+      "resume"
+    ],
+    "warnings": [],
+    "overall_confidence": 0.78,
+    "provenance": [
+      {
+        "field": "education",
+        "final_value": [
+          {
+            "institution": "NIT Warangal",
+            "degree": "B.Tech",
+            "field": "Electronics",
+            "end_year": 2019
+          }
+        ],
+        "method": "education_union",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "['NIT Warangal\\nB.Tech in Electronics\\n2019']",
+            "normalized": "[EducationEntry(institution='NIT Warangal', degree='B.Tech', field='Electronics', end_year=2019)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "emails",
+        "final_value": [
+          "ishaan.verma@example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "ishaan.verma@example.com",
+            "normalized": "['ishaan.verma@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['ishaan.verma@example.com']",
+            "normalized": "['ishaan.verma@example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "CloudNative",
+            "title": "Platform Engineer",
+            "start": "2019-04",
+            "end": "Present",
+            "summary": "Managed Kubernetes clusters and CI/CD pipelines using Terraform and Go."
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "{'company': 'CloudNative', 'title': 'Platform Engineer'}",
+            "normalized": "[ExperienceEntry(company='CloudNative', title='Platform Engineer', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['Platform Engineer\\nCloudNative | Apr 2019 - Present\\nManaged Kubernetes clusters and CI/CD pipelines using Terraform and Go.']",
+            "normalized": "[ExperienceEntry(company='CloudNative', title='Platform Engineer', start='2019-04', end='Present', summary='Managed Kubernetes clusters and CI/CD pipelines using Terraform and Go.')]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Ishaan Verma",
+        "method": "name_normalized",
+        "confidence": 0.9500000000000001,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "Ishaan Verma",
+            "normalized": "Ishaan Verma",
+            "agreed": true
+          },
+          {
+            "source": "resume",
+            "raw_value": "Ishaan Verma",
+            "normalized": "Ishaan Verma",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "headline",
+        "final_value": "Platform Engineer",
+        "method": "headline_cleaned",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "Platform Engineer",
+            "normalized": "Platform Engineer",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "links",
+        "final_value": {
+          "linkedin": "https://linkedin.com/in/ishaanverma",
+          "github": "https://github.com/ishaanverma",
+          "portfolio": null,
+          "other": []
+        },
+        "method": "links_arbitrated",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "{'linkedin': 'linkedin.com/in/ishaanverma', 'github': 'github.com/ishaanverma', 'other': []}",
+            "normalized": "Links(linkedin='https://linkedin.com/in/ishaanverma', github='https://github.com/ishaanverma', portfolio=None, other=[])",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Bengaluru",
+          "region": "Karnataka",
+          "country": "IN"
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "Bengaluru, Karnataka, India",
+            "normalized": "Location(city='Bengaluru', region='Karnataka', country='IN')",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876513000"
+        ],
+        "method": "phone_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "98765-13000",
+            "normalized": "['+919876513000']",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['+919876513000']",
+            "normalized": "['+919876513000']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "Docker",
+            "confidence": 0.6,
+            "sources": [
+              "resume"
+            ]
+          },
+          {
+            "name": "Go",
+            "confidence": 0.6,
+            "sources": [
+              "resume"
+            ]
+          },
+          {
+            "name": "Kubernetes",
+            "confidence": 0.6,
+            "sources": [
+              "resume"
+            ]
+          },
+          {
+            "name": "Terraform",
+            "confidence": 0.6,
+            "sources": [
+              "resume"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "['k8s', 'Docker', 'Go', 'Terraform']",
+            "normalized": "[SkillEntry(name='Kubernetes', confidence=0.0, sources=[]), SkillEntry(name='Docker', confidence=0.0, sources=[]), SkillEntry(name='Go', confidence=0.0, sources=[]), SkillEntry(name='Terraform', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_2e492fb25d3b",
+    "full_name": "Rohan Mehta",
+    "emails": [
+      "rohan.mehta@example.com"
+    ],
+    "phones": [
+      "+919876506001"
+    ],
+    "headline": "Full Stack Developer",
+    "years_experience": 3.0,
+    "skills": [
+      "JavaScript",
+      "MongoDB",
+      "Node.js"
+    ],
+    "sources_seen": [
+      "ats_blob",
+      "resume"
+    ],
+    "warnings": [],
+    "overall_confidence": 0.8,
+    "provenance": [
+      {
+        "field": "education",
+        "final_value": [
+          {
+            "institution": "Pune University",
+            "degree": "B.E.",
+            "field": "Information Technology",
+            "end_year": 2020
+          }
+        ],
+        "method": "education_union",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "['Pune University\\nB.E. in Information Technology\\n2020']",
+            "normalized": "[EducationEntry(institution='Pune University', degree='B.E.', field='Information Technology', end_year=2020)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "emails",
+        "final_value": [
+          "rohan.mehta@example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['rohan.mehta@example.com']",
+            "normalized": "['rohan.mehta@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['rohan.mehta@example.com']",
+            "normalized": "['rohan.mehta@example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "WebCraft",
+            "title": "Full Stack Developer",
+            "start": "2021-03",
+            "end": "Present",
+            "summary": "Built e-commerce platforms using React, Node.js and MongoDB."
+          },
+          {
+            "company": "FreelanceWork",
+            "title": "Junior Developer",
+            "start": "2020-01",
+            "end": "2021-02",
+            "summary": "Developed web applications for small business clients."
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'employer': 'WebCraft', 'jobTitle': 'Full Stack Developer'}",
+            "normalized": "[ExperienceEntry(company='WebCraft', title='Full Stack Developer', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['Full Stack Developer\\nWebCraft | Mar 2021 - Present\\nBuilt e-commerce platforms using React, Node.js and MongoDB.', 'Junior Developer\\nFreelanceWork | Jan 2020 - Feb 2021\\nDeveloped web applications for small business clients.']",
+            "normalized": "[ExperienceEntry(company='WebCraft', title='Full Stack Developer', start='2021-03', end='Present', summary='Built e-commerce platforms using React, Node.js and MongoDB.'), ExperienceEntry(company='FreelanceWork', title='Junior Developer', start='2020-01', end='2021-02', summary='Developed web applications for small business clients.')]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Rohan Mehta",
+        "method": "name_normalized",
+        "confidence": 0.9,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "Rohan Mehta",
+            "normalized": "Rohan Mehta",
+            "agreed": true
+          },
+          {
+            "source": "resume",
+            "raw_value": "Rohan Mehta",
+            "normalized": "Rohan Mehta",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "headline",
+        "final_value": "Full Stack Developer",
+        "method": "headline_cleaned",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "Full Stack Developer",
+            "normalized": "Full Stack Developer",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "links",
+        "final_value": {
+          "linkedin": "https://linkedin.com/in/rohanmehta",
+          "github": "https://github.com/rohanmehta",
+          "portfolio": null,
+          "other": []
+        },
+        "method": "links_arbitrated",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "{'linkedin': 'linkedin.com/in/rohanmehta', 'github': 'github.com/rohanmehta', 'other': []}",
+            "normalized": "Links(linkedin='https://linkedin.com/in/rohanmehta', github='https://github.com/rohanmehta', portfolio=None, other=[])",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Pune",
+          "region": "Maharashtra",
+          "country": "IN"
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'city': 'Pune'}",
+            "normalized": "Location(city='Pune', region=None, country=None)",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "Pune, Maharashtra, India",
+            "normalized": "Location(city='Pune', region='Maharashtra', country='IN')",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876506001"
+        ],
+        "method": "phone_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "9876506001",
+            "normalized": "['+919876506001']",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['+919876506001']",
+            "normalized": "['+919876506001']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "JavaScript",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "resume"
+            ]
+          },
+          {
+            "name": "MongoDB",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "resume"
+            ]
+          },
+          {
+            "name": "Node.js",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "resume"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.9,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['JavaScript', 'Node.js', 'MongoDB']",
+            "normalized": "[SkillEntry(name='JavaScript', confidence=0.0, sources=[]), SkillEntry(name='Node.js', confidence=0.0, sources=[]), SkillEntry(name='MongoDB', confidence=0.0, sources=[])]",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['JavaScript', 'Node.js', 'MongoDB']",
+            "normalized": "[SkillEntry(name='JavaScript', confidence=0.0, sources=[]), SkillEntry(name='Node.js', confidence=0.0, sources=[]), SkillEntry(name='MongoDB', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "years_experience",
+        "final_value": 3.0,
+        "method": "years_passthrough",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "3",
+            "normalized": "3.0",
+            "agreed": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_351fd0d70458",
+    "full_name": "Saanvi Gupta",
+    "emails": [
+      "saanvi.gupta@example.com"
+    ],
+    "phones": [
+      "+919876511100",
+      "+919876599900"
+    ],
+    "headline": null,
+    "years_experience": 5.0,
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "sources_seen": [
+      "ats_blob",
+      "recruiter_csv"
+    ],
+    "warnings": [
+      "phones: sources disagree — all values unioned, review recommended"
+    ],
+    "overall_confidence": 0.88,
+    "provenance": [
+      {
+        "field": "emails",
+        "final_value": [
+          "saanvi.gupta@example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "saanvi.gupta@example.com",
+            "normalized": "['saanvi.gupta@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "['saanvi.gupta@example.com']",
+            "normalized": "['saanvi.gupta@example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "CloudWorks",
+            "title": "Devops Engineer",
+            "start": null,
+            "end": null,
+            "summary": null
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "{'company': 'CloudWorks', 'title': 'DevOps Engineer'}",
+            "normalized": "[ExperienceEntry(company='CloudWorks', title='Devops Engineer', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "{'employer': 'CloudWorks', 'jobTitle': 'DevOps Engineer'}",
+            "normalized": "[ExperienceEntry(company='CloudWorks', title='Devops Engineer', start=None, end=None, summary=None)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Saanvi Gupta",
+        "method": "name_normalized",
+        "confidence": 0.9500000000000001,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "Saanvi Gupta",
+            "normalized": "Saanvi Gupta",
+            "agreed": true
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "Saanvi Gupta",
+            "normalized": "Saanvi Gupta",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Bengaluru",
+          "region": null,
+          "country": null
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'city': 'Bengaluru'}",
+            "normalized": "Location(city='Bengaluru', region=None, country=None)",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876511100",
+          "+919876599900"
+        ],
+        "method": "phone_union",
+        "confidence": 0.8,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "98765-11100",
+            "normalized": "['+919876511100']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "9876599900",
+            "normalized": "['+919876599900']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "Docker",
+            "confidence": 0.85,
+            "sources": [
+              "ats_blob"
+            ]
+          },
+          {
+            "name": "Kubernetes",
+            "confidence": 0.85,
+            "sources": [
+              "ats_blob"
+            ]
+          },
+          {
+            "name": "Terraform",
+            "confidence": 0.85,
+            "sources": [
+              "ats_blob"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['Docker', 'Kubernetes', 'Terraform']",
+            "normalized": "[SkillEntry(name='Docker', confidence=0.0, sources=[]), SkillEntry(name='Kubernetes', confidence=0.0, sources=[]), SkillEntry(name='Terraform', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "years_experience",
+        "final_value": 5.0,
+        "method": "years_passthrough",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "5",
+            "normalized": "5.0",
+            "agreed": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_432350052204",
+    "full_name": "Kabir Singh",
+    "emails": [
+      "kabir.singh@example.com"
+    ],
+    "phones": [
+      "+919876510001"
+    ],
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      "Microsoft Excel",
+      "SQL"
+    ],
+    "sources_seen": [
+      "recruiter_notes"
+    ],
+    "warnings": [],
+    "overall_confidence": 0.5,
+    "provenance": [
+      {
+        "field": "emails",
+        "final_value": [
+          "kabir.singh@example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.5,
+        "winner_source": "recruiter_notes",
+        "contributions": [
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['kabir.singh@example.com']",
+            "normalized": "['kabir.singh@example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Kabir Singh",
+        "method": "name_normalized",
+        "confidence": 0.5,
+        "winner_source": "recruiter_notes",
+        "contributions": [
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Kabir Singh",
+            "normalized": "Kabir Singh",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Jaipur",
+          "region": "Rajasthan",
+          "country": "IN"
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.5,
+        "winner_source": "recruiter_notes",
+        "contributions": [
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Jaipur, Rajasthan, India",
+            "normalized": "Location(city='Jaipur', region='Rajasthan', country='IN')",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876510001"
+        ],
+        "method": "phone_union",
+        "confidence": 0.5,
+        "winner_source": "recruiter_notes",
+        "contributions": [
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['9876510001']",
+            "normalized": "['+919876510001']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "Microsoft Excel",
+            "confidence": 0.5,
+            "sources": [
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "SQL",
+            "confidence": 0.5,
+            "sources": [
+              "recruiter_notes"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.5,
+        "winner_source": "recruiter_notes",
+        "contributions": [
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['Excel', 'SQL']",
+            "normalized": "[SkillEntry(name='Microsoft Excel', confidence=0.0, sources=[]), SkillEntry(name='SQL', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_5fdd9a7f6498",
+    "full_name": "Aditya Rao",
+    "emails": [
+      "aditya.rao@example.com"
+    ],
+    "phones": [
+      "+919876512001"
+    ],
+    "headline": "Senior Backend Engineer",
+    "years_experience": 7.0,
+    "skills": [
+      "Django",
+      "PostgreSQL",
+      "Python",
+      "Redis"
+    ],
+    "sources_seen": [
+      "ats_blob",
+      "recruiter_notes",
+      "resume"
+    ],
+    "warnings": [],
+    "overall_confidence": 0.82,
+    "provenance": [
+      {
+        "field": "education",
+        "final_value": [
+          {
+            "institution": "BITS Pilani",
+            "degree": "B.E.",
+            "field": "Computer Science",
+            "end_year": 2015
+          }
+        ],
+        "method": "education_union",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "['BITS Pilani\\nB.E. in Computer Science\\n2015']",
+            "normalized": "[EducationEntry(institution='BITS Pilani', degree='B.E.', field='Computer Science', end_year=2015)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "emails",
+        "final_value": [
+          "aditya.rao@example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['aditya.rao@example.com']",
+            "normalized": "['aditya.rao@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['aditya.rao@example.com']",
+            "normalized": "['aditya.rao@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['aditya.rao@example.com']",
+            "normalized": "['aditya.rao@example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "FinEdge",
+            "title": "Senior Backend Engineer",
+            "start": "2017-02",
+            "end": "Present",
+            "summary": "Architected Django-based microservices handling financial transactions."
+          },
+          {
+            "company": "TechStart",
+            "title": "Backend Developer",
+            "start": "2016-01",
+            "end": "2017-01",
+            "summary": "Built REST APIs for insurance analytics platform."
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'employer': 'FinEdge', 'jobTitle': 'Senior Backend Engineer'}",
+            "normalized": "[ExperienceEntry(company='FinEdge', title='Senior Backend Engineer', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['Senior Backend Engineer\\nFinEdge | Feb 2017 - Present\\nArchitected Django-based microservices handling financial transactions.', 'Backend Developer\\nTechStart | Jan 2016 - Jan 2017\\nBuilt REST APIs for insurance analytics platform.']",
+            "normalized": "[ExperienceEntry(company='FinEdge', title='Senior Backend Engineer', start='2017-02', end='Present', summary='Architected Django-based microservices handling financial transactions.'), ExperienceEntry(company='TechStart', title='Backend Developer', start='2016-01', end='2017-01', summary='Built REST APIs for insurance analytics platform.')]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Aditya Rao",
+        "method": "name_normalized",
+        "confidence": 0.95,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "Aditya Rao",
+            "normalized": "Aditya Rao",
+            "agreed": true
+          },
+          {
+            "source": "resume",
+            "raw_value": "Aditya Rao",
+            "normalized": "Aditya Rao",
+            "agreed": true
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Aditya Rao",
+            "normalized": "Aditya Rao",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "headline",
+        "final_value": "Senior Backend Engineer",
+        "method": "headline_cleaned",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "Senior Backend Engineer",
+            "normalized": "Senior Backend Engineer",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "links",
+        "final_value": {
+          "linkedin": "https://linkedin.com/in/adityarao",
+          "github": "https://github.com/adityarao",
+          "portfolio": null,
+          "other": []
+        },
+        "method": "links_arbitrated",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "{'linkedin': 'linkedin.com/in/adityarao', 'github': 'github.com/adityarao', 'other': []}",
+            "normalized": "Links(linkedin='https://linkedin.com/in/adityarao', github='https://github.com/adityarao', portfolio=None, other=[])",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Hyderabad",
+          "region": "Telangana",
+          "country": "IN"
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.9,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'city': 'Hyderabad'}",
+            "normalized": "Location(city='Hyderabad', region=None, country=None)",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "Hyderabad, Telangana, India",
+            "normalized": "Location(city='Hyderabad', region='Telangana', country='IN')",
+            "agreed": true
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Hyderabad, Telangana, India",
+            "normalized": "Location(city='Hyderabad', region='Telangana', country='IN')",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876512001"
+        ],
+        "method": "phone_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "9876512001",
+            "normalized": "['+919876512001']",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['+919876512001']",
+            "normalized": "['+919876512001']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['9876512001']",
+            "normalized": "['+919876512001']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "Django",
+            "confidence": 0.95,
+            "sources": [
+              "ats_blob",
+              "resume",
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "PostgreSQL",
+            "confidence": 0.95,
+            "sources": [
+              "ats_blob",
+              "resume",
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "Python",
+            "confidence": 0.95,
+            "sources": [
+              "ats_blob",
+              "resume",
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "Redis",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "resume"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.9375,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['Python', 'Django', 'PostgreSQL', 'Redis']",
+            "normalized": "[SkillEntry(name='Python', confidence=0.0, sources=[]), SkillEntry(name='Django', confidence=0.0, sources=[]), SkillEntry(name='PostgreSQL', confidence=0.0, sources=[]), SkillEntry(name='Redis', confidence=0.0, sources=[])]",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['Python', 'Django', 'PostgreSQL', 'Redis']",
+            "normalized": "[SkillEntry(name='Python', confidence=0.0, sources=[]), SkillEntry(name='Django', confidence=0.0, sources=[]), SkillEntry(name='PostgreSQL', confidence=0.0, sources=[]), SkillEntry(name='Redis', confidence=0.0, sources=[])]",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['Python', 'Django', 'PostgreSQL']",
+            "normalized": "[SkillEntry(name='Python', confidence=0.0, sources=[]), SkillEntry(name='Django', confidence=0.0, sources=[]), SkillEntry(name='PostgreSQL', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "years_experience",
+        "final_value": 7.0,
+        "method": "years_passthrough",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "7",
+            "normalized": "7.0",
+            "agreed": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_66226069fe34",
+    "full_name": "Aarav Sharma",
+    "emails": [
+      "aarav.sharma@example.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "headline": "Senior Software Engineer",
+    "years_experience": 5.0,
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "Python",
+      "React",
+      "SQL"
+    ],
+    "sources_seen": [
+      "ats_blob",
+      "recruiter_csv",
+      "recruiter_notes",
+      "resume"
+    ],
+    "warnings": [],
+    "overall_confidence": 0.84,
+    "provenance": [
+      {
+        "field": "education",
+        "final_value": [
+          {
+            "institution": "IIT Bombay",
+            "degree": "B.Tech",
+            "field": "Computer Science",
+            "end_year": 2018
+          }
+        ],
+        "method": "education_union",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "['IIT Bombay\\nB.Tech in Computer Science\\n2018']",
+            "normalized": "[EducationEntry(institution='IIT Bombay', degree='B.Tech', field='Computer Science', end_year=2018)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "emails",
+        "final_value": [
+          "aarav.sharma@example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "aarav.sharma@example.com",
+            "normalized": "['aarav.sharma@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_csv",
+            "raw_value": "aarav.sharma@example.com",
+            "normalized": "['aarav.sharma@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "['aarav.sharma@example.com']",
+            "normalized": "['aarav.sharma@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['aarav.sharma@example.com']",
+            "normalized": "['aarav.sharma@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['aarav.sharma@example.com']",
+            "normalized": "['aarav.sharma@example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "TechCorp India",
+            "title": "Senior Software Engineer",
+            "start": "2020-01",
+            "end": "Present",
+            "summary": "Led development of microservices platform serving 1M+ users."
+          },
+          {
+            "company": "StartupXYZ",
+            "title": "Software Engineer",
+            "start": "2018-06",
+            "end": "2019-12",
+            "summary": "Built REST APIs and data pipelines using Python and Docker."
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "{'company': 'TechCorp India', 'title': 'Software Engineer'}",
+            "normalized": "[ExperienceEntry(company='TechCorp India', title='Software Engineer', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_csv",
+            "raw_value": "{'company': 'TechCorp India', 'title': 'Senior Software Engineer'}",
+            "normalized": "[ExperienceEntry(company='TechCorp India', title='Senior Software Engineer', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "{'employer': 'TechCorp India', 'jobTitle': 'Software Engineer'}",
+            "normalized": "[ExperienceEntry(company='TechCorp India', title='Software Engineer', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['Senior Software Engineer\\nTechCorp India | Jan 2020 - Present\\nLed development of microservices platform serving 1M+ users.', 'Software Engineer\\nStartupXYZ | Jun 2018 - Dec 2019\\nBuilt REST APIs and data pipelines using Python and Docker.']",
+            "normalized": "[ExperienceEntry(company='TechCorp India', title='Senior Software Engineer', start='2020-01', end='Present', summary='Led development of microservices platform serving 1M+ users.'), ExperienceEntry(company='StartupXYZ', title='Software Engineer', start='2018-06', end='2019-12', summary='Built REST APIs and data pipelines using Python and Docker.')]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Aarav Sharma",
+        "method": "name_normalized",
+        "confidence": 1.0,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "Aarav Sharma",
+            "normalized": "Aarav Sharma",
+            "agreed": true
+          },
+          {
+            "source": "recruiter_csv",
+            "raw_value": "Aarav Sharma",
+            "normalized": "Aarav Sharma",
+            "agreed": true
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "Aarav Sharma",
+            "normalized": "Aarav Sharma",
+            "agreed": true
+          },
+          {
+            "source": "resume",
+            "raw_value": "Aarav Sharma",
+            "normalized": "Aarav Sharma",
+            "agreed": true
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Aarav Sharma",
+            "normalized": "Aarav Sharma",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "headline",
+        "final_value": "Senior Software Engineer",
+        "method": "headline_cleaned",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "Senior Software Engineer",
+            "normalized": "Senior Software Engineer",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "links",
+        "final_value": {
+          "linkedin": "https://linkedin.com/in/aaravsharma",
+          "github": "https://github.com/aaravsharma",
+          "portfolio": null,
+          "other": []
+        },
+        "method": "links_arbitrated",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "{'linkedin': 'linkedin.com/in/aaravsharma', 'github': 'github.com/aaravsharma', 'other': []}",
+            "normalized": "Links(linkedin='https://linkedin.com/in/aaravsharma', github='https://github.com/aaravsharma', portfolio=None, other=[])",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Mumbai",
+          "region": "Maharashtra",
+          "country": "IN"
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.9,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'city': 'Mumbai'}",
+            "normalized": "Location(city='Mumbai', region=None, country=None)",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "Mumbai, Maharashtra, India",
+            "normalized": "Location(city='Mumbai', region='Maharashtra', country='IN')",
+            "agreed": true
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Mumbai, Maharashtra, India",
+            "normalized": "Location(city='Mumbai', region='Maharashtra', country='IN')",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876543210"
+        ],
+        "method": "phone_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "98765 43210",
+            "normalized": "['+919876543210']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_csv",
+            "raw_value": "+91-98765-43210",
+            "normalized": "['+919876543210']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "9876543210",
+            "normalized": "['+919876543210']",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['+919876543210']",
+            "normalized": "['+919876543210']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['(+91) 98765 43210']",
+            "normalized": "['+919876543210']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "Docker",
+            "confidence": 0.95,
+            "sources": [
+              "ats_blob",
+              "resume",
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "Kubernetes",
+            "confidence": 0.85,
+            "sources": [
+              "ats_blob"
+            ]
+          },
+          {
+            "name": "Python",
+            "confidence": 0.95,
+            "sources": [
+              "ats_blob",
+              "resume",
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "React",
+            "confidence": 0.6,
+            "sources": [
+              "resume"
+            ]
+          },
+          {
+            "name": "SQL",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "resume"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['Python', 'Docker', 'SQL', 'k8s']",
+            "normalized": "[SkillEntry(name='Python', confidence=0.0, sources=[]), SkillEntry(name='Docker', confidence=0.0, sources=[]), SkillEntry(name='SQL', confidence=0.0, sources=[]), SkillEntry(name='Kubernetes', confidence=0.0, sources=[])]",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['Python', 'Docker', 'SQL', 'React']",
+            "normalized": "[SkillEntry(name='Python', confidence=0.0, sources=[]), SkillEntry(name='Docker', confidence=0.0, sources=[]), SkillEntry(name='SQL', confidence=0.0, sources=[]), SkillEntry(name='React', confidence=0.0, sources=[])]",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['Python', 'Docker']",
+            "normalized": "[SkillEntry(name='Python', confidence=0.0, sources=[]), SkillEntry(name='Docker', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "years_experience",
+        "final_value": 5.0,
+        "method": "years_passthrough",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "5",
+            "normalized": "5.0",
+            "agreed": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_759601684394",
+    "full_name": "Meera Joshi",
+    "emails": [
+      "meera.joshi@personal.com",
+      "meera.work@fintechco.com"
+    ],
+    "phones": [
+      "+919876514000"
+    ],
+    "headline": null,
+    "years_experience": 3.0,
+    "skills": [
+      "Python",
+      "SQL",
+      "Tableau"
+    ],
+    "sources_seen": [
+      "ats_blob",
+      "recruiter_csv",
+      "recruiter_notes"
+    ],
+    "warnings": [
+      "emails: sources disagree — all values unioned, review recommended"
+    ],
+    "overall_confidence": 0.89,
+    "provenance": [
+      {
+        "field": "emails",
+        "final_value": [
+          "meera.joshi@personal.com",
+          "meera.work@fintechco.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.8,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "meera.joshi@personal.com",
+            "normalized": "['meera.joshi@personal.com']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "['meera.work@fintechco.com']",
+            "normalized": "['meera.work@fintechco.com']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['meera.joshi@personal.com', 'meera.work@fintechco.com']",
+            "normalized": "['meera.joshi@personal.com', 'meera.work@fintechco.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "FinTechCo",
+            "title": "Product Analyst",
+            "start": null,
+            "end": null,
+            "summary": null
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "{'company': 'FinTechCo', 'title': 'Product Analyst'}",
+            "normalized": "[ExperienceEntry(company='FinTechCo', title='Product Analyst', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "{'employer': 'FinTechCo', 'jobTitle': 'Product Analyst'}",
+            "normalized": "[ExperienceEntry(company='FinTechCo', title='Product Analyst', start=None, end=None, summary=None)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Meera Joshi",
+        "method": "name_normalized",
+        "confidence": 1.0,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "Meera Joshi",
+            "normalized": "Meera Joshi",
+            "agreed": true
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "Meera Joshi",
+            "normalized": "Meera Joshi",
+            "agreed": true
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Meera Joshi",
+            "normalized": "Meera Joshi",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Mumbai",
+          "region": "Maharashtra",
+          "country": "IN"
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'city': 'Mumbai'}",
+            "normalized": "Location(city='Mumbai', region=None, country=None)",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Mumbai, Maharashtra, India",
+            "normalized": "Location(city='Mumbai', region='Maharashtra', country='IN')",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876514000"
+        ],
+        "method": "phone_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "98765-14000",
+            "normalized": "['+919876514000']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "9876514000",
+            "normalized": "['+919876514000']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['9876514000']",
+            "normalized": "['+919876514000']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "Python",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "SQL",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "Tableau",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "recruiter_notes"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.9,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['SQL', 'Tableau', 'Python']",
+            "normalized": "[SkillEntry(name='SQL', confidence=0.0, sources=[]), SkillEntry(name='Tableau', confidence=0.0, sources=[]), SkillEntry(name='Python', confidence=0.0, sources=[])]",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['SQL', 'Tableau', 'Python']",
+            "normalized": "[SkillEntry(name='SQL', confidence=0.0, sources=[]), SkillEntry(name='Tableau', confidence=0.0, sources=[]), SkillEntry(name='Python', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "years_experience",
+        "final_value": 3.0,
+        "method": "years_passthrough",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "3",
+            "normalized": "3.0",
+            "agreed": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_7dec791f15a8",
+    "full_name": "Diya Patel",
+    "emails": [
+      "diya.patel@example.com"
+    ],
+    "phones": [
+      "+919876509001"
+    ],
+    "headline": "Data Scientist",
+    "years_experience": 4.0,
+    "skills": [
+      "Pandas",
+      "Python",
+      "TensorFlow"
+    ],
+    "sources_seen": [
+      "ats_blob",
+      "recruiter_csv",
+      "resume"
+    ],
+    "warnings": [],
+    "overall_confidence": 0.84,
+    "provenance": [
+      {
+        "field": "education",
+        "final_value": [
+          {
+            "institution": "IIT Ahmedabad",
+            "degree": "M.Tech",
+            "field": "Data Science",
+            "end_year": 2020
+          }
+        ],
+        "method": "education_union",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "['IIT Ahmedabad\\nM.Tech in Data Science\\n2020']",
+            "normalized": "[EducationEntry(institution='IIT Ahmedabad', degree='M.Tech', field='Data Science', end_year=2020)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "emails",
+        "final_value": [
+          "diya.patel@example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "diya.patel@example.com",
+            "normalized": "['diya.patel@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "['diya.patel@example.com']",
+            "normalized": "['diya.patel@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['diya.patel@example.com']",
+            "normalized": "['diya.patel@example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "DataDriven Inc",
+            "title": "Data Scientist",
+            "start": "2020-07",
+            "end": "Present",
+            "summary": "Built recommendation systems and NLP pipelines using Python and TensorFlow."
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "{'company': 'DataDriven Inc', 'title': 'Data Scientist'}",
+            "normalized": "[ExperienceEntry(company='DataDriven Inc', title='Data Scientist', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "{'employer': 'DataDriven Inc', 'jobTitle': 'Data Scientist'}",
+            "normalized": "[ExperienceEntry(company='DataDriven Inc', title='Data Scientist', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['Data Scientist\\nDataDriven Inc | Jul 2020 - Present\\nBuilt recommendation systems and NLP pipelines using Python and TensorFlow.']",
+            "normalized": "[ExperienceEntry(company='DataDriven Inc', title='Data Scientist', start='2020-07', end='Present', summary='Built recommendation systems and NLP pipelines using Python and TensorFlow.')]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Diya Patel",
+        "method": "name_normalized",
+        "confidence": 1.0,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "Diya Patel",
+            "normalized": "Diya Patel",
+            "agreed": true
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "Diya Patel",
+            "normalized": "Diya Patel",
+            "agreed": true
+          },
+          {
+            "source": "resume",
+            "raw_value": "Diya Patel",
+            "normalized": "Diya Patel",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "headline",
+        "final_value": "Data Scientist",
+        "method": "headline_cleaned",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "Data Scientist",
+            "normalized": "Data Scientist",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "links",
+        "final_value": {
+          "linkedin": "https://linkedin.com/in/diyapatel",
+          "github": null,
+          "portfolio": null,
+          "other": []
+        },
+        "method": "links_arbitrated",
+        "confidence": 0.6,
+        "winner_source": "resume",
+        "contributions": [
+          {
+            "source": "resume",
+            "raw_value": "{'linkedin': 'linkedin.com/in/diyapatel', 'github': None, 'other': []}",
+            "normalized": "Links(linkedin='https://linkedin.com/in/diyapatel', github=None, portfolio=None, other=[])",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Ahmedabad",
+          "region": "Gujarat",
+          "country": "IN"
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'city': 'Ahmedabad'}",
+            "normalized": "Location(city='Ahmedabad', region=None, country=None)",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "Ahmedabad, Gujarat, India",
+            "normalized": "Location(city='Ahmedabad', region='Gujarat', country='IN')",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876509001"
+        ],
+        "method": "phone_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "98765-09001",
+            "normalized": "['+919876509001']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "9876509001",
+            "normalized": "['+919876509001']",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['+919876509001']",
+            "normalized": "['+919876509001']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "Pandas",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "resume"
+            ]
+          },
+          {
+            "name": "Python",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "resume"
+            ]
+          },
+          {
+            "name": "TensorFlow",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "resume"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.9,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['Python', 'TensorFlow', 'Pandas']",
+            "normalized": "[SkillEntry(name='Python', confidence=0.0, sources=[]), SkillEntry(name='TensorFlow', confidence=0.0, sources=[]), SkillEntry(name='Pandas', confidence=0.0, sources=[])]",
+            "agreed": false
+          },
+          {
+            "source": "resume",
+            "raw_value": "['Python', 'TensorFlow', 'Pandas']",
+            "normalized": "[SkillEntry(name='Python', confidence=0.0, sources=[]), SkillEntry(name='TensorFlow', confidence=0.0, sources=[]), SkillEntry(name='Pandas', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "years_experience",
+        "final_value": 4.0,
+        "method": "years_passthrough",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "4",
+            "normalized": "4.0",
+            "agreed": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_8548f0d90423",
+    "full_name": "Arjun Nair",
+    "emails": [
+      "arjun.nair@example.com"
+    ],
+    "phones": [
+      "+919876508001"
+    ],
+    "headline": null,
+    "years_experience": 6.0,
+    "skills": [
+      "AWS",
+      "Java",
+      "Spring Boot"
+    ],
+    "sources_seen": [
+      "ats_blob",
+      "recruiter_notes"
+    ],
+    "warnings": [],
+    "overall_confidence": 0.86,
+    "provenance": [
+      {
+        "field": "emails",
+        "final_value": [
+          "arjun.nair@example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['arjun.nair@example.com']",
+            "normalized": "['arjun.nair@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['arjun.nair@example.com']",
+            "normalized": "['arjun.nair@example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "InnovateTech",
+            "title": "Backend Developer",
+            "start": null,
+            "end": null,
+            "summary": null
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'employer': 'InnovateTech', 'jobTitle': 'Backend Developer'}",
+            "normalized": "[ExperienceEntry(company='InnovateTech', title='Backend Developer', start=None, end=None, summary=None)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Arjun Nair",
+        "method": "name_normalized",
+        "confidence": 0.9,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "Arjun Nair",
+            "normalized": "Arjun Nair",
+            "agreed": true
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Arjun Nair",
+            "normalized": "Arjun Nair",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Bengaluru",
+          "region": "Karnataka",
+          "country": "IN"
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'city': 'Bengaluru'}",
+            "normalized": "Location(city='Bengaluru', region=None, country=None)",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Bengaluru, Karnataka, India",
+            "normalized": "Location(city='Bengaluru', region='Karnataka', country='IN')",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876508001"
+        ],
+        "method": "phone_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "9876508001",
+            "normalized": "['+919876508001']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['9876508001']",
+            "normalized": "['+919876508001']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "AWS",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "Java",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "Spring Boot",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "recruiter_notes"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.9,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['Java', 'Spring Boot', 'AWS']",
+            "normalized": "[SkillEntry(name='Java', confidence=0.0, sources=[]), SkillEntry(name='Spring Boot', confidence=0.0, sources=[]), SkillEntry(name='AWS', confidence=0.0, sources=[])]",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['Java', 'Spring Boot', 'AWS']",
+            "normalized": "[SkillEntry(name='Java', confidence=0.0, sources=[]), SkillEntry(name='Spring Boot', confidence=0.0, sources=[]), SkillEntry(name='AWS', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "years_experience",
+        "final_value": 6.0,
+        "method": "years_passthrough",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "6",
+            "normalized": "6.0",
+            "agreed": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_85efe2232584",
+    "full_name": "Fatima Khan",
+    "emails": [
+      "fatima.khan@example.com"
+    ],
+    "phones": [
+      "+919876507001"
+    ],
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      "Django",
+      "MySQL",
+      "Python"
+    ],
+    "sources_seen": [
+      "recruiter_csv",
+      "recruiter_notes"
+    ],
+    "warnings": [],
+    "overall_confidence": 0.82,
+    "provenance": [
+      {
+        "field": "emails",
+        "final_value": [
+          "fatima.khan@example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "fatima.khan@example.com",
+            "normalized": "['fatima.khan@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['fatima.khan@example.com']",
+            "normalized": "['fatima.khan@example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "MediaHouse",
+            "title": "Content Strategist",
+            "start": null,
+            "end": null,
+            "summary": null
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "{'company': 'MediaHouse', 'title': 'Content Strategist'}",
+            "normalized": "[ExperienceEntry(company='MediaHouse', title='Content Strategist', start=None, end=None, summary=None)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Fatima Khan",
+        "method": "name_normalized",
+        "confidence": 0.9500000000000001,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "Fatima Khan",
+            "normalized": "Fatima Khan",
+            "agreed": true
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Fatima Khan",
+            "normalized": "Fatima Khan",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Delhi",
+          "region": null,
+          "country": "IN"
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.5,
+        "winner_source": "recruiter_notes",
+        "contributions": [
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Delhi, India",
+            "normalized": "Location(city='Delhi', region=None, country='IN')",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876507001"
+        ],
+        "method": "phone_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "98765-07001",
+            "normalized": "['+919876507001']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['9876507001']",
+            "normalized": "['+919876507001']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "Django",
+            "confidence": 0.5,
+            "sources": [
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "MySQL",
+            "confidence": 0.5,
+            "sources": [
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "Python",
+            "confidence": 0.5,
+            "sources": [
+              "recruiter_notes"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.5,
+        "winner_source": "recruiter_notes",
+        "contributions": [
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['Django', 'Python', 'MySQL']",
+            "normalized": "[SkillEntry(name='Django', confidence=0.0, sources=[]), SkillEntry(name='Python', confidence=0.0, sources=[]), SkillEntry(name='MySQL', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_96e749fde60b",
+    "full_name": "Priya Sharma",
+    "emails": [
+      "priya.b@sharma.example.com"
+    ],
+    "phones": [
+      "+919876532222"
+    ],
+    "headline": null,
+    "years_experience": 4.0,
+    "skills": [
+      "Java",
+      "MySQL",
+      "Spring Boot"
+    ],
+    "sources_seen": [
+      "ats_blob",
+      "recruiter_csv"
+    ],
+    "warnings": [],
+    "overall_confidence": 0.9,
+    "provenance": [
+      {
+        "field": "emails",
+        "final_value": [
+          "priya.b@sharma.example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "priya.b@sharma.example.com",
+            "normalized": "['priya.b@sharma.example.com']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "['priya.b@sharma.example.com']",
+            "normalized": "['priya.b@sharma.example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "SouthernSoft",
+            "title": "Backend Engineer",
+            "start": null,
+            "end": null,
+            "summary": null
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "{'company': 'SouthernSoft', 'title': 'Backend Engineer'}",
+            "normalized": "[ExperienceEntry(company='SouthernSoft', title='Backend Engineer', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "{'employer': 'SouthernSoft', 'jobTitle': 'Backend Engineer'}",
+            "normalized": "[ExperienceEntry(company='SouthernSoft', title='Backend Engineer', start=None, end=None, summary=None)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Priya Sharma",
+        "method": "name_normalized",
+        "confidence": 0.9500000000000001,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "Priya Sharma",
+            "normalized": "Priya Sharma",
+            "agreed": true
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "Priya Sharma",
+            "normalized": "Priya Sharma",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Chennai",
+          "region": null,
+          "country": null
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'city': 'Chennai'}",
+            "normalized": "Location(city='Chennai', region=None, country=None)",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876532222"
+        ],
+        "method": "phone_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "98765-32222",
+            "normalized": "['+919876532222']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "9876532222",
+            "normalized": "['+919876532222']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "Java",
+            "confidence": 0.85,
+            "sources": [
+              "ats_blob"
+            ]
+          },
+          {
+            "name": "MySQL",
+            "confidence": 0.85,
+            "sources": [
+              "ats_blob"
+            ]
+          },
+          {
+            "name": "Spring Boot",
+            "confidence": 0.85,
+            "sources": [
+              "ats_blob"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['Java', 'Spring Boot', 'MySQL']",
+            "normalized": "[SkillEntry(name='Java', confidence=0.0, sources=[]), SkillEntry(name='Spring Boot', confidence=0.0, sources=[]), SkillEntry(name='MySQL', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "years_experience",
+        "final_value": 4.0,
+        "method": "years_passthrough",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "4",
+            "normalized": "4.0",
+            "agreed": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_9e18c6c60d9f",
+    "full_name": "Priya Sharma",
+    "emails": [
+      "priya.a@sharma.example.com"
+    ],
+    "phones": [
+      "+919876531111"
+    ],
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "sources_seen": [
+      "recruiter_csv"
+    ],
+    "warnings": [],
+    "overall_confidence": 0.9,
+    "provenance": [
+      {
+        "field": "emails",
+        "final_value": [
+          "priya.a@sharma.example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "priya.a@sharma.example.com",
+            "normalized": "['priya.a@sharma.example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "NorthernTech",
+            "title": "Ux Designer",
+            "start": null,
+            "end": null,
+            "summary": null
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "{'company': 'NorthernTech', 'title': 'UX Designer'}",
+            "normalized": "[ExperienceEntry(company='NorthernTech', title='Ux Designer', start=None, end=None, summary=None)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Priya Sharma",
+        "method": "name_normalized",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "Priya Sharma",
+            "normalized": "Priya Sharma",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876531111"
+        ],
+        "method": "phone_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "98765-31111",
+            "normalized": "['+919876531111']",
+            "agreed": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_b3df7033119d",
+    "full_name": "Vivaan Reddy",
+    "emails": [
+      "vivaan.reddy@example.com"
+    ],
+    "phones": [
+      "+919876555555"
+    ],
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      "Python",
+      "SQL"
+    ],
+    "sources_seen": [
+      "ats_blob",
+      "recruiter_csv",
+      "recruiter_notes"
+    ],
+    "warnings": [
+      "full_name: conflict between sources — winner from 'recruiter_csv' kept",
+      "years_experience: all sources failed normalization, value set to null",
+      "entry[1]: bad mobile: 'bad-number'",
+      "entry[1]: yearsExp 'lots' could not be parsed → null"
+    ],
+    "overall_confidence": 0.88,
+    "provenance": [
+      {
+        "field": "emails",
+        "final_value": [
+          "vivaan.reddy@example.com"
+        ],
+        "method": "email_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "vivaan.reddy@example.com",
+            "normalized": "['vivaan.reddy@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "['vivaan.reddy@example.com']",
+            "normalized": "['vivaan.reddy@example.com']",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['vivaan.reddy@example.com']",
+            "normalized": "['vivaan.reddy@example.com']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "experience",
+        "final_value": [
+          {
+            "company": "StartupABC",
+            "title": "Data Analyst",
+            "start": null,
+            "end": null,
+            "summary": null
+          }
+        ],
+        "method": "experience_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "{'company': 'StartupABC', 'title': 'Data Analyst'}",
+            "normalized": "[ExperienceEntry(company='StartupABC', title='Data Analyst', start=None, end=None, summary=None)]",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "{'employer': 'StartupABC', 'jobTitle': 'Data Analyst'}",
+            "normalized": "[ExperienceEntry(company='StartupABC', title='Data Analyst', start=None, end=None, summary=None)]",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "full_name",
+        "final_value": "Vivaan Reddy",
+        "method": "name_normalized",
+        "confidence": 0.8500000000000001,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "Vivaan Reddy",
+            "normalized": "Vivaan Reddy",
+            "agreed": true
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "V. Reddy",
+            "normalized": "V. Reddy",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Vivaan Reddy",
+            "normalized": "Vivaan Reddy",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "location",
+        "final_value": {
+          "city": "Hyderabad",
+          "region": "Telangana",
+          "country": "IN"
+        },
+        "method": "location_arbitrated",
+        "confidence": 0.85,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "{'city': 'Hyderabad'}",
+            "normalized": "Location(city='Hyderabad', region=None, country=None)",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "Hyderabad, Telangana, India",
+            "normalized": "Location(city='Hyderabad', region='Telangana', country='IN')",
+            "agreed": true
+          }
+        ]
+      },
+      {
+        "field": "phones",
+        "final_value": [
+          "+919876555555"
+        ],
+        "method": "phone_union",
+        "confidence": 0.9,
+        "winner_source": "recruiter_csv",
+        "contributions": [
+          {
+            "source": "recruiter_csv",
+            "raw_value": "98765-55555",
+            "normalized": "['+919876555555']",
+            "agreed": false
+          },
+          {
+            "source": "ats_blob",
+            "raw_value": "bad-number",
+            "normalized": "[]",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['9876555555']",
+            "normalized": "['+919876555555']",
+            "agreed": false
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "final_value": [
+          {
+            "name": "Python",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "recruiter_notes"
+            ]
+          },
+          {
+            "name": "SQL",
+            "confidence": 0.9,
+            "sources": [
+              "ats_blob",
+              "recruiter_notes"
+            ]
+          }
+        ],
+        "method": "skill_union",
+        "confidence": 0.9,
+        "winner_source": "ats_blob",
+        "contributions": [
+          {
+            "source": "ats_blob",
+            "raw_value": "['Python', 'SQL']",
+            "normalized": "[SkillEntry(name='Python', confidence=0.0, sources=[]), SkillEntry(name='SQL', confidence=0.0, sources=[])]",
+            "agreed": false
+          },
+          {
+            "source": "recruiter_notes",
+            "raw_value": "['Python', 'SQL']",
+            "normalized": "[SkillEntry(name='Python', confidence=0.0, sources=[]), SkillEntry(name='SQL', confidence=0.0, sources=[])]",
+            "agreed": false
+          }
+        ]
+      }
+    ]
+  }
+]

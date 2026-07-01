@@ -1,0 +1,8 @@
+Priya Test
+Candidate: Priya Test
+Email: priya.test@example.com
+Phone: 98765 11111
+Location: Mumbai, Maharashtra, India
+Skills: Python, Django, SQL
+Notes: Strong Python developer with 3 years experience. Based in Mumbai.
+Interested in backend engineering roles.

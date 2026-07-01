@@ -1,0 +1,7 @@
+Candidate: Aditya Rao
+Email: aditya.rao@example.com
+Phone: 9876512001
+Location: Hyderabad, Telangana, India
+Skills: Python, Django, PostgreSQL
+Notes: Senior backend engineer at FinEdge. Strong Python web development background.
+7 years of experience in fintech domain. Excellent problem solver and mentor.

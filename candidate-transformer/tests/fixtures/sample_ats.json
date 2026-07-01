@@ -1,0 +1,22 @@
+[
+  {
+    "candidateName": "Aarav Sharma",
+    "emailAddress": "aarav.sharma@example.com",
+    "mobile": "98765-43210",
+    "employer": "TechCorp India",
+    "jobTitle": "Software Engineer",
+    "skillTags": ["Python", "k8s", "Docker"],
+    "yearsExp": 5,
+    "city": "Mumbai"
+  },
+  {
+    "candidateName": "Vivaan Reddy",
+    "emailAddress": "vivaan.reddy@example.com",
+    "mobile": "bad-number",
+    "employer": "StartupABC",
+    "jobTitle": "Data Analyst",
+    "skillTags": "Python, SQL",
+    "yearsExp": "lots",
+    "city": "Hyderabad"
+  }
+]

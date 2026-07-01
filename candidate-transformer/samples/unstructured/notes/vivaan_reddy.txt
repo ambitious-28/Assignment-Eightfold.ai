@@ -1,0 +1,7 @@
+Candidate: Vivaan Reddy
+Email: vivaan.reddy@example.com
+Phone: 9876555555
+Location: Hyderabad, Telangana, India
+Skills: Python, SQL
+Notes: Candidate has data analysis background. Some discrepancy in resume dates.
+Promising but needs verification. Currently at StartupABC.

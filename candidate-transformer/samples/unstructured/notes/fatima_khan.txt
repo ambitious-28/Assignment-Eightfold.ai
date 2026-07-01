@@ -1,0 +1,8 @@
+Candidate: Fatima Khan
+Email: fatima.khan@example.com
+Phone: 9876507001
+Location: Delhi, India
+Skills: Django, Python, MySQL
+Notes: Strong background in content strategy and digital marketing.
+Also has basic technical skills. Works at MediaHouse as Content Strategist.
+Good communicator and detail-oriented professional.

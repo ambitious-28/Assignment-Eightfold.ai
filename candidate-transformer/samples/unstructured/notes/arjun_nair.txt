@@ -1,0 +1,7 @@
+Candidate: Arjun Nair
+Email: arjun.nair@example.com
+Phone: 9876508001
+Location: Bengaluru, Karnataka, India
+Skills: Java, Spring Boot, AWS
+Notes: Backend developer with 6 years of experience. Previously worked at DigitalStudio
+before joining InnovateTech. Strong Java ecosystem knowledge. Interested in architect roles.

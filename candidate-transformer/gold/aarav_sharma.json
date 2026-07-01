@@ -1,0 +1,149 @@
+{
+  "candidate_id": "cand_66226069fe34",
+  "full_name": "Aarav Sharma",
+  "emails": [
+    "aarav.sharma@example.com"
+  ],
+  "phones": [
+    "+919876543210"
+  ],
+  "location": {
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "country": "IN"
+  },
+  "links": {
+    "linkedin": "https://linkedin.com/in/aaravsharma",
+    "github": "https://github.com/aaravsharma",
+    "portfolio": null,
+    "other": []
+  },
+  "headline": "Senior Software Engineer",
+  "years_experience": 5.0,
+  "skills": [
+    {
+      "name": "Docker",
+      "confidence": 0.95,
+      "sources": [
+        "ats_blob",
+        "resume",
+        "recruiter_notes"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "confidence": 0.85,
+      "sources": [
+        "ats_blob"
+      ]
+    },
+    {
+      "name": "Python",
+      "confidence": 0.95,
+      "sources": [
+        "ats_blob",
+        "resume",
+        "recruiter_notes"
+      ]
+    },
+    {
+      "name": "React",
+      "confidence": 0.6,
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "name": "SQL",
+      "confidence": 0.9,
+      "sources": [
+        "ats_blob",
+        "resume"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "TechCorp India",
+      "title": "Senior Software Engineer",
+      "start": "2020-01",
+      "end": "Present",
+      "summary": "Led development of microservices platform serving 1M+ users."
+    },
+    {
+      "company": "StartupXYZ",
+      "title": "Software Engineer",
+      "start": "2018-06",
+      "end": "2019-12",
+      "summary": "Built REST APIs and data pipelines using Python and Docker."
+    }
+  ],
+  "education": [
+    {
+      "institution": "IIT Bombay",
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "end_year": 2018
+    }
+  ],
+  "provenance": [
+    {
+      "field": "education",
+      "source": "resume",
+      "method": "education_union"
+    },
+    {
+      "field": "emails",
+      "source": "recruiter_csv",
+      "method": "email_union"
+    },
+    {
+      "field": "experience",
+      "source": "recruiter_csv",
+      "method": "experience_union"
+    },
+    {
+      "field": "full_name",
+      "source": "recruiter_csv",
+      "method": "name_normalized"
+    },
+    {
+      "field": "headline",
+      "source": "resume",
+      "method": "headline_cleaned"
+    },
+    {
+      "field": "links",
+      "source": "resume",
+      "method": "links_arbitrated"
+    },
+    {
+      "field": "location",
+      "source": "ats_blob",
+      "method": "location_arbitrated"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_csv",
+      "method": "phone_union"
+    },
+    {
+      "field": "skills",
+      "source": "ats_blob",
+      "method": "skill_union"
+    },
+    {
+      "field": "years_experience",
+      "source": "ats_blob",
+      "method": "years_passthrough"
+    }
+  ],
+  "overall_confidence": 0.84,
+  "sources_seen": [
+    "ats_blob",
+    "recruiter_csv",
+    "recruiter_notes",
+    "resume"
+  ],
+  "warnings": []
+}

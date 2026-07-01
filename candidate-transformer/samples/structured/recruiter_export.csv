@@ -1,0 +1,12 @@
+name,email,phone,current_company,title
+Aarav Sharma,aarav.sharma@example.com,98765 43210,TechCorp India,Software Engineer
+Aarav Sharma,aarav.sharma@example.com,+91-98765-43210,TechCorp India,Senior Software Engineer
+Vivaan Reddy,vivaan.reddy@example.com,98765-55555,StartupABC,Data Analyst
+Priya Sharma,priya.a@sharma.example.com,98765-31111,NorthernTech,UX Designer
+Priya Sharma,priya.b@sharma.example.com,98765-32222,SouthernSoft,Backend Engineer
+Fatima Khan,fatima.khan@example.com,98765-07001,MediaHouse,Content Strategist
+Saanvi Gupta,saanvi.gupta@example.com,98765-11100,CloudWorks,DevOps Engineer
+Meera Joshi,meera.joshi@personal.com,98765-14000,FinTechCo,Product Analyst
+Diya Patel,diya.patel@example.com,98765-09001,DataDriven Inc,Data Scientist
+Ishaan Verma,ishaan.verma@example.com,98765-13000,CloudNative,Platform Engineer
+,,,,

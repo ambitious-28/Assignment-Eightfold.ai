@@ -1,0 +1,7 @@
+Candidate: Kabir Singh
+Email: kabir.singh@example.com
+Phone: 9876510001
+Location: Jaipur, Rajasthan, India
+Skills: Excel, SQL
+Notes: Entry-level candidate with administrative background. Limited technical exposure.
+Interested in transitioning to a data role. Willing to learn and grow.

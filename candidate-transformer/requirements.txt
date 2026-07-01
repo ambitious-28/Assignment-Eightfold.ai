@@ -1,0 +1,5 @@
+phonenumbers
+pdfplumber
+python-docx
+reportlab
+pytest

@@ -1,0 +1,7 @@
+Candidate: Meera Joshi
+Email: meera.joshi@personal.com
+Phone: 9876514000
+Location: Mumbai, Maharashtra, India
+Skills: SQL, Tableau, Python
+Notes: Product analyst with strong data visualization skills. Uses personal email for
+correspondence. Official work email is meera.work@fintechco.com. Based at FinTechCo Mumbai.

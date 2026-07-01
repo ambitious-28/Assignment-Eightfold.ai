@@ -1,0 +1,182 @@
+[
+  {
+    "candidate_id": "cand_0ad8486b789c",
+    "full_name": "Ananya Iyer",
+    "primary_email": "ananya.iyer@example.com",
+    "primary_phone": null,
+    "skills": [
+      "Java",
+      "MySQL",
+      "Spring Boot"
+    ],
+    "years_experience": null,
+    "overall_confidence": 0.6
+  },
+  {
+    "candidate_id": "cand_148c796734ae",
+    "full_name": "Ishaan Verma",
+    "primary_email": "ishaan.verma@example.com",
+    "primary_phone": "+919876513000",
+    "skills": [
+      "Docker",
+      "Go",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "years_experience": null,
+    "overall_confidence": 0.78
+  },
+  {
+    "candidate_id": "cand_2e492fb25d3b",
+    "full_name": "Rohan Mehta",
+    "primary_email": "rohan.mehta@example.com",
+    "primary_phone": "+919876506001",
+    "skills": [
+      "JavaScript",
+      "MongoDB",
+      "Node.js"
+    ],
+    "years_experience": 3.0,
+    "overall_confidence": 0.8
+  },
+  {
+    "candidate_id": "cand_351fd0d70458",
+    "full_name": "Saanvi Gupta",
+    "primary_email": "saanvi.gupta@example.com",
+    "primary_phone": "+919876511100",
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "years_experience": 5.0,
+    "overall_confidence": 0.88
+  },
+  {
+    "candidate_id": "cand_432350052204",
+    "full_name": "Kabir Singh",
+    "primary_email": "kabir.singh@example.com",
+    "primary_phone": "+919876510001",
+    "skills": [
+      "Microsoft Excel",
+      "SQL"
+    ],
+    "years_experience": null,
+    "overall_confidence": 0.5
+  },
+  {
+    "candidate_id": "cand_5fdd9a7f6498",
+    "full_name": "Aditya Rao",
+    "primary_email": "aditya.rao@example.com",
+    "primary_phone": "+919876512001",
+    "skills": [
+      "Django",
+      "PostgreSQL",
+      "Python",
+      "Redis"
+    ],
+    "years_experience": 7.0,
+    "overall_confidence": 0.82
+  },
+  {
+    "candidate_id": "cand_66226069fe34",
+    "full_name": "Aarav Sharma",
+    "primary_email": "aarav.sharma@example.com",
+    "primary_phone": "+919876543210",
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "Python",
+      "React",
+      "SQL"
+    ],
+    "years_experience": 5.0,
+    "overall_confidence": 0.84
+  },
+  {
+    "candidate_id": "cand_759601684394",
+    "full_name": "Meera Joshi",
+    "primary_email": "meera.joshi@personal.com",
+    "primary_phone": "+919876514000",
+    "skills": [
+      "Python",
+      "SQL",
+      "Tableau"
+    ],
+    "years_experience": 3.0,
+    "overall_confidence": 0.89
+  },
+  {
+    "candidate_id": "cand_7dec791f15a8",
+    "full_name": "Diya Patel",
+    "primary_email": "diya.patel@example.com",
+    "primary_phone": "+919876509001",
+    "skills": [
+      "Pandas",
+      "Python",
+      "TensorFlow"
+    ],
+    "years_experience": 4.0,
+    "overall_confidence": 0.84
+  },
+  {
+    "candidate_id": "cand_8548f0d90423",
+    "full_name": "Arjun Nair",
+    "primary_email": "arjun.nair@example.com",
+    "primary_phone": "+919876508001",
+    "skills": [
+      "AWS",
+      "Java",
+      "Spring Boot"
+    ],
+    "years_experience": 6.0,
+    "overall_confidence": 0.86
+  },
+  {
+    "candidate_id": "cand_85efe2232584",
+    "full_name": "Fatima Khan",
+    "primary_email": "fatima.khan@example.com",
+    "primary_phone": "+919876507001",
+    "skills": [
+      "Django",
+      "MySQL",
+      "Python"
+    ],
+    "years_experience": null,
+    "overall_confidence": 0.82
+  },
+  {
+    "candidate_id": "cand_96e749fde60b",
+    "full_name": "Priya Sharma",
+    "primary_email": "priya.b@sharma.example.com",
+    "primary_phone": "+919876532222",
+    "skills": [
+      "Java",
+      "MySQL",
+      "Spring Boot"
+    ],
+    "years_experience": 4.0,
+    "overall_confidence": 0.9
+  },
+  {
+    "candidate_id": "cand_9e18c6c60d9f",
+    "full_name": "Priya Sharma",
+    "primary_email": "priya.a@sharma.example.com",
+    "primary_phone": "+919876531111",
+    "skills": [],
+    "years_experience": null,
+    "overall_confidence": 0.9
+  },
+  {
+    "candidate_id": "cand_b3df7033119d",
+    "full_name": "Vivaan Reddy",
+    "primary_email": "vivaan.reddy@example.com",
+    "primary_phone": "+919876555555",
+    "skills": [
+      "Python",
+      "SQL"
+    ],
+    "years_experience": null,
+    "overall_confidence": 0.88
+  }
+]

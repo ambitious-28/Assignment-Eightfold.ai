@@ -1,0 +1,61 @@
+{
+  "candidate_id": "cand_9e18c6c60d9f",
+  "full_name": "Priya Sharma",
+  "emails": [
+    "priya.a@sharma.example.com"
+  ],
+  "phones": [
+    "+919876531111"
+  ],
+  "location": {
+    "city": null,
+    "region": null,
+    "country": null
+  },
+  "links": {
+    "linkedin": null,
+    "github": null,
+    "portfolio": null,
+    "other": []
+  },
+  "headline": null,
+  "years_experience": null,
+  "skills": [],
+  "experience": [
+    {
+      "company": "NorthernTech",
+      "title": "Ux Designer",
+      "start": null,
+      "end": null,
+      "summary": null
+    }
+  ],
+  "education": [],
+  "provenance": [
+    {
+      "field": "emails",
+      "source": "recruiter_csv",
+      "method": "email_union"
+    },
+    {
+      "field": "experience",
+      "source": "recruiter_csv",
+      "method": "experience_union"
+    },
+    {
+      "field": "full_name",
+      "source": "recruiter_csv",
+      "method": "name_normalized"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_csv",
+      "method": "phone_union"
+    }
+  ],
+  "overall_confidence": 0.9,
+  "sources_seen": [
+    "recruiter_csv"
+  ],
+  "warnings": []
+}
